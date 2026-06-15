@@ -1,7 +1,7 @@
 # Serenity: Mental Health Support Chatbot (Frontend)
 
 [![Deploy to GitHub Pages](https://github.com/Hagar-Ghazi/Serenity--Mental-Health-Chatbot-Frontend/actions/workflows/deploy.yml/badge.svg)](https://github.com/Hagar-Ghazi/Serenity--Mental-Health-Chatbot-Frontend/actions/workflows/deploy.yml)
-[![Live Chat Link](https://img.shields.io/badge/Live-Chatbot--Interface-2e7d32?style=flat&logo=githubpages&logoColor=white)](https://hagar-ghazi.github.io/Serenity--Mental-Health-Chatbot-Frontend/)
+[![Live Chat Link](https://img.shields.io/badge/Live-Chatbot--Interface-2e7d32?style=flat&logo=githubpages&logoColor=white)](https://hagar-ghazi.github.io/Serenity-Mental-Health-Chatbot-Frontend/)
 
 Serenity is a modern, clean and responsive web chat interface built using vanilla HTML5, CSS3 and JavaScript. It serves as an empathetic, safe and private space for users to seek support on anxiety, stress, depression and other mental health queries. The frontend connects to a containerized FastAPI backend running an intelligent NLP pipeline (classification + RAG + LLM).
 
