@@ -126,6 +126,6 @@ Interaction flows are managed via asynchronous JavaScript `fetch` calls:
 
 The repository contains an automated workflow file at **`.github/workflows/deploy.yml`**:
 - **Trigger**: Every push or merge to the `main` branch.
-- **Action**: Uses the official `actions/deploy-pages` and checkout actions to automatically compile and deploy the static website files (`index.html`, `style.css`, `app.js`, and `assets/`) onto GitHub Pages.
+- **Action**: Uses the official `actions/deploy-pages` and checkout actions to automatically compile and deploy the static website files (`index.html`, `style.css`, `app.js` and `assets/`) onto GitHub Pages.
 - **Link**: The live web page is immediately refreshed at:
-  [https://hagar-ghazi.github.io/Serenity--Mental-Health-Chatbot-Frontend/](https://hagar-ghazi.github.io/Serenity--Mental-Health-Chatbot-Frontend/)
+  [https://hagar-ghazi.github.io/Serenity-Mental-Health-Chatbot-Frontend/](https://hagar-ghazi.github.io/Serenity--Mental-Health-Chatbot-Frontend/)
