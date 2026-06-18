@@ -77,7 +77,7 @@ document.addEventListener("click", (e) => {
 
 // ── Clear chat ──
 
-clearBtn.addEventListener("click", () => {
+clearBtn.addEventListener("click", async () => {
   chatArea.innerHTML = `
     <div class="welcome">
       <div class="welcome-icon">
@@ -94,6 +94,12 @@ clearBtn.addEventListener("click", () => {
         <button class="prompt-chip" data-prompt="What are some coping strategies for depression?">Coping strategies</button>
       </div>
     </div>`;
+  try {
+    const url = settings.apiUrl + settings.endpoint;
+    await fetch(url, { method: "DELETE" });
+  } catch (err) {
+    console.error("Failed to clear backend session history:", err);
+  }
 });
 
 // ── Chat logic ──
